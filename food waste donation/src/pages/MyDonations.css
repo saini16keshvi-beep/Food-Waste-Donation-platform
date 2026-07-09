@@ -1,0 +1,70 @@
+.donation-page{
+min-height:100vh;
+padding:60px 8%;
+background:#f8fafc;
+}
+
+.donation-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.donation-header h1{
+font-size:42px;
+color:#15803d;
+}
+
+.donation-header p{
+color:#666;
+margin-top:10px;
+font-size:18px;
+}
+
+.donation-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.donation-card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.donation-card:hover{
+transform:translateY(-8px);
+}
+
+.donation-card h2{
+color:#16a34a;
+margin-bottom:15px;
+}
+
+.donation-card p{
+margin:10px 0;
+color:#555;
+}
+
+.status{
+display:inline-block;
+margin-top:15px;
+padding:8px 18px;
+border-radius:20px;
+font-weight:bold;
+color:white;
+}
+
+.delivered{
+background:#16a34a;
+}
+
+.pending{
+background:#f59e0b;
+}
+
+.accepted{
+background:#3b82f6;
+}

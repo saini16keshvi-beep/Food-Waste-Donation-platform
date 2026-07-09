@@ -1,0 +1,80 @@
+.notifications{
+min-height:100vh;
+padding:60px 8%;
+background:#f8fafc;
+}
+
+.notification-header{
+text-align:center;
+margin-bottom:50px;
+}
+
+.notification-header h1{
+font-size:42px;
+color:#15803d;
+margin-bottom:10px;
+}
+
+.notification-header p{
+color:#666;
+font-size:18px;
+}
+
+.notification-list{
+max-width:900px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.notification-card{
+display:flex;
+align-items:center;
+gap:20px;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.notification-card:hover{
+transform:translateY(-5px);
+}
+
+.icon{
+width:65px;
+height:65px;
+background:#dcfce7;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+}
+
+.content h3{
+color:#15803d;
+margin-bottom:8px;
+}
+
+.content p{
+color:#555;
+line-height:1.6;
+margin-bottom:8px;
+}
+
+.content span{
+color:#888;
+font-size:14px;
+}
+
+@media(max-width:768px){
+
+.notification-card{
+flex-direction:column;
+text-align:center;
+}
+
+}

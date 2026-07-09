@@ -1,0 +1,100 @@
+.ngo-dashboard{
+padding:60px 8%;
+min-height:100vh;
+background:#f8fafc;
+}
+
+.ngo-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.ngo-header h1{
+font-size:42px;
+color:#15803d;
+}
+
+.ngo-header p{
+color:#666;
+font-size:18px;
+margin-top:10px;
+}
+
+.request-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.request-card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.request-card:hover{
+transform:translateY(-8px);
+}
+
+.request-card h2{
+color:#16a34a;
+margin-bottom:15px;
+}
+
+.request-card p{
+margin:10px 0;
+color:#555;
+}
+
+.status{
+display:inline-block;
+margin:15px 0;
+padding:8px 18px;
+border-radius:20px;
+color:white;
+font-weight:bold;
+}
+
+.pending{
+background:#f59e0b;
+}
+
+.accepted{
+background:#16a34a;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+margin-top:15px;
+}
+
+.accept{
+flex:1;
+background:#16a34a;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.reject{
+flex:1;
+background:#ef4444;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.accept:hover{
+background:#15803d;
+}
+
+.reject:hover{
+background:#dc2626;
+}
