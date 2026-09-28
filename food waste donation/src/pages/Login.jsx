@@ -24,7 +24,7 @@ function Login() {
     <div className="login-page">
 
       <div className="login-left">
-        <h1>🍽 FoodBridge</h1>
+        <h1> FoodBridge</h1>
         <h2>Reduce Food Waste</h2>
 
         <p>
